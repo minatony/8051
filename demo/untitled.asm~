@@ -1,0 +1,4 @@
+mov r7,#50d
+loop: djnz r7,loop
+cpl p1.0
+end
